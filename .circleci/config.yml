@@ -16,6 +16,7 @@ jobs:
     steps:
       - checkout
       - run: yarn global add solidarity
+      - run: solidarity
       - run:
           name: Install dependencies
           command: yarn install
