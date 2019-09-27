@@ -12,7 +12,7 @@
     "ci:test": "yarn test",
     "ci:publish": "yarn semantic-release",
     "semantic-release": "semantic-release",
-    "postinstall": "solidarity && jetify && if which pod >/dev/null; then (cd ios; pod install); fi"
+    "postinstall": "solidarity --verbose"
   },
   "release": {
     "plugins": [
